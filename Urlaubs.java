@@ -3,6 +3,7 @@ public class Urlaubs
     private String  ort;
     private int     preis;
     private boolean all;
+    private boolean lastM;
     
     public void setOrt(String newOrt)
     {
