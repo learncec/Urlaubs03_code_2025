@@ -1,0 +1,36 @@
+public class Urlaubs
+{
+    private String  ort;
+    private int     preis;
+    private boolean all;
+    
+    public void setOrt(String newOrt)
+    {
+        ort = newOrt;
+    }
+    
+    public void setPreis(int newPreis)
+    {
+        preis = newPreis;
+    }
+    
+    public void setAll(boolean newAll)
+    {
+        all = newAll;
+    }
+        
+    public String getOrt()
+    {
+        return ort;
+    }
+    
+    public int getPreis()
+    {
+        return preis;
+    }
+    
+    public boolean getAll()
+    {
+        return all;
+    }
+}
