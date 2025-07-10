@@ -3,6 +3,14 @@ public class Urlaubs
     private String  ort;
     private int     preis;
     private boolean all;
+    
+
+    public Urlaubs(String newOrt, int newPreis, boolean newAll)
+    {
+        setOrt(newOrt);
+        setPreis(newPreis);
+        setAll(newAll);   
+    }
         
     public void setOrt(String newOrt)
     {
