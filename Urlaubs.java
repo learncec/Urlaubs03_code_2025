@@ -3,8 +3,7 @@ public class Urlaubs
     private String  ort;
     private int     preis;
     private boolean all;
-    private int     prozent;
-    
+        
     public void setOrt(String newOrt)
     {
         ort = newOrt;
