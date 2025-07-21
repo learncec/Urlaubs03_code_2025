@@ -41,4 +41,9 @@ public class Urlaubs
     {
         return all;
     }
+    
+    public void printUrlaubs()
+    {
+        System.out.println("Der Ort ist " + ort + " , es kostet " + preis + " Euro und der AllInklusive ist: " + all);
+    }
 }
